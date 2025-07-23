@@ -55,9 +55,54 @@ __Code sẽ được chạy theo thứ tự từ trên xuống dưới__
 - **-** - *trừ*
 - **++** - *cộng thêm giống phía trên*
 - **--** - *trừ thêm giống phía trên*
+3. Tóa tử chia dư(%)
+*dùng để trả về phần dư của phép tính*
+VD: 3%3 =0 hay 3%2 = 1
+dùng trong ứng dụng:
+- Tìm số chẵn: x%2 = 0
+- Tìm số lẻ: x%2 = 1
+
+### In kết hợp
+1. In kết hợp giá trị chuỗi và biến 
+- **console.log("message")** - *in giá trị kiểu chuỗi*
+- **console.log(<variable_name>")** -*in giá trị của biến*
+- **console.log("message:"+<variable_name>")** - *kết hợp*
+- **console.log("message:",<variable_name>")** - *kết hợp*
+2. Nối chuỗi với toán tử (+)
+  **console.log(bieesn1 + biến2)**
+  VD: const s1 = "H"
+      const s2 = "M"
+      console.log(s1+s2)  => in ra: "HM"
+
 
 ### Câu lệnh terminal để test code đã viết
 node <path_file> -*path_file lấy bằng cách click chuột phải vào file rồi chọn Copy Path*
 
 ### Tips làm đẹp format code cho VSCode
 ALt + Shift +F
+
+# **File markdown**
+1. Tên file
+- filename.md
+- Dùng để định dạng văn bản
+2. Tiêu đề
+- Dùng #, ##, ### + tiêu đề
+- Càng nhiều dấu # thì tiêu đề càng nhỏ
+3. Chữ in đậm
+- Cách 1: Thêm ** + text + **
+- Cách 2: Thêm __ + text + __
+4. Chữ in nghiêng
+- Cách 1: Thêm * + text + *
+- Cách 2: Thêm _ + text + _
+5. Danh sách
+- Hiển thị danh sách có thứ tự: 
+      1. mục 1
+      2. mục 2
+- Hiển thị danh sách không có thứ tự:
+    - mục a
+    - mục b
+6. Chèn liên kết
+   [text](link)  
+7. Chèn hình ảnh
+   ![text](link)
+
